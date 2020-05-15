@@ -1,28 +1,14 @@
 package com.example.delivery;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-import androidx.fragment.app.Fragment;
-
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
-
-/**
- * A simple {@link Fragment} subclass.
- */
-public class Ajustes extends Fragment {
-
-    public Ajustes() {
-        // Required empty public constructor
-    }
-
+public class Ajustes extends AppCompatActivity {
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_ajustes, container, false);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_ajustes);
     }
 }
