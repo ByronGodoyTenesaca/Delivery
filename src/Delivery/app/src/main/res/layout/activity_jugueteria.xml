@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jugueteria">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnCarro"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:onClick="seleccion"
+                android:text="@string/carros"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnBarbie"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:text="@string/barbies"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnBarco"
+                android:layout_width="match_parent"
+                android:layout_height="133dp"
+                android:text="@string/barcos"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnPelota"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:text="@string/pelotas"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnBici"
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                android:text="@string/bicicletas"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnAvion"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="@string/Aviones"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnDrone"
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:text="@string/drones"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnMono"
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:text="@string/monopatines"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

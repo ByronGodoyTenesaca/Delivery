@@ -15,11 +15,40 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-
-    <string name="home_second">Home Second</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="bazar">Bazar</string>
+    <string name="comidarapida">Comida Rapida</string>
+    <string name="jugueteria">Jugueteria</string>
+    <string name="Categorias">Categoria</string>
+
+
+    <string name="activar">Activar el reconocimiento facial</string>
+    <string name="ajustes">Configuracion</string>
+    <string name="reconocimiento">Reconocimiento facial</string>
+    <string name="carrito">Carrito</string>
+
+
+    <string name="informacion">Informacion de Pedidos</string>
+    <string name="total">Total a cancelar</string>
+    <string name="btnConfirmar">Confirmar</string>
+
+    <string name="carros">Carros  2$</string>
+    <string name="Aviones">Aviones 2.50$</string>
+    <string name="barcos">Barcos 3$</string>
+    <string name="pelotas">Pelotas 1$</string>
+    <string name="barbies">Barbies 2.50$</string>
+    <string name="bicicletas">Bicicletas 80.50$</string>
+    <string name="monopatines">Monopatines 100$</string>
+    <string name="drones">Dones 60$</string>
+
+
+
+    <string name="compra">Cuantos carros desea comprar</string>
+    <string name="total_pagar">Total a pagar</string>
+    <string name="numero">Ingrese un numero diferente de 0</string>
+
 </resources>

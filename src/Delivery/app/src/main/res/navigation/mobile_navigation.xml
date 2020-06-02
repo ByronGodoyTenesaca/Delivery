@@ -8,8 +8,22 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.delivery.ui.home.HomeFragment"
-        android:label="Principal"
+        android:label="@string/menu_home"
         tools:layout="@layout/fragment_home"/>
-
+    <activity
+        android:id="@+id/ajustes"
+        android:name="com.example.delivery.Ajustes"
+        android:label="activity_ajustes"
+        tools:layout="@layout/activity_ajustes" />
+    <activity
+        android:id="@+id/categorias"
+        android:name="com.example.delivery.Categorias"
+        android:label="activity_categorias"
+        tools:layout="@layout/activity_categorias" />
+    <activity
+        android:id="@+id/carrito"
+        android:name="com.example.delivery.Carrito"
+        android:label="activity_carrito"
+        tools:layout="@layout/activity_carrito" />
 
 </navigation>
