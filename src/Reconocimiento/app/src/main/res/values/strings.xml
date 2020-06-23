@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Reconocimiento</string>
+    <string name="low_storage_error">Las dependecias del detector no se pueden descargar debido a la falta de espacio en el dispositivo</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">El acceso a la cámara es necesario para la detección</string>
+    <string name="no_camera_permission">Esta aplicación no puede funcionar debido a las restricciones con los permisos.  La aplicación se cerrará.</string>
+
+</resources>
